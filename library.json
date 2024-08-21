@@ -1,0 +1,17 @@
+{
+    "name": "PetalPID",
+    "keywords": "PID, controller, tuning, auto-tuning, Ziegler–Nichols, lightweight, universal, compact, variable-cycle-time, signal",
+    "description": "Lightweight universal PID controller library with Ziegler–Nichols auto tuning and variable cycle time",
+    "url": "https://github.com/F33RNI/PetalPID",
+    "include": "PetalPID",
+    "authors": [
+        {
+            "name": "Fern Lane"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/F33RNI/PetalPID"
+    },
+    "frameworks": "arduino"
+}

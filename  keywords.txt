@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map For PetalPID    #
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)                #
+#######################################
+
+PetalPID    KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)    #
+#######################################
+
+get_p                   KEYWORD2
+get_i                   KEYWORD2
+get_d                   KEYWORD2
+set_gains               KEYWORD2
+set_min_max_output      KEYWORD2
+set_min_max_integral    KEYWORD2
+set_reverse             KEYWORD2
+calculate               KEYWORD2
+start_auto_tune         KEYWORD2
+stop_auto_tune          KEYWORD2
+is_tuning               KEYWORD2
+reset                   KEYWORD2
+
+#######################################
+# Constants (LITERAL1)                #
+#######################################
+
+TYPE_P                      LITERAL1
+TYPE_PI                     LITERAL1
+TYPE_PD                     LITERAL1
+TYPE_CLASSIC_PID            LITERAL1
+TYPE_PESSEN_INTEGRAL_RULE   LITERAL1
+TYPE_SOME_OVERSHOOT         LITERAL1
+TYPE_NO_OVERSHOOT           LITERAL1
