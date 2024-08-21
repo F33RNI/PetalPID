@@ -65,7 +65,7 @@ void setup() {
     Serial.println(F("Setpoint\tTemperature"));
 
     // Uncomment line below to start auto-tuning (wait for it to complete. You will see this moment on the plot)
-    pid_1.start_auto_tune(TYPE_NO_OVERSHOOT, 50);
+    // pid_1.start_auto_tune(TYPE_NO_OVERSHOOT, 50);
 }
 
 void loop() {
