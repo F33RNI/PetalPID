@@ -1,4 +1,5 @@
 .pio
 .vscode
+arduino-cli
 build
 docs
