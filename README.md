@@ -14,7 +14,7 @@
 
 ## 🏗️ Getting started
 
-> Example of auto-tuning process
+> Example of auto-tuning process (this graph is produced by `examples/TemperatureController`)
 ![Auto-tunning PID](assets/Snapshot%20[02:02:11].svg)
 
 1. Download or include this repo as a library
@@ -75,7 +75,7 @@
     Serial.println(pid.get_d());
     ```
 
-**More info in docs and `examples/`**
+**More info in `📄 Documentation` section and `examples/`**
 
 ----------
 
