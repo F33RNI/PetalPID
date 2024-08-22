@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: apt-get install curl
+    - run: sudo apt-get install curl
     - run: cd examples/TemperatureController
     - run: mkdir arduino-cli
     - run: curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | BINDIR=./arduino-cli sh
