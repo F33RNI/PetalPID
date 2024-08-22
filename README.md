@@ -90,3 +90,26 @@ doxygen
 ```
 
 This will generate HTML and LaTeX docs. Open `docs/index.html` file to view it
+
+----------
+
+## 💡 Projects using PetalPID
+
+- [in17clock](https://github.com/F33RNI/in17clock) by Fern Lane
+    > IN17 Nixie tube clock with internal DC-DC converter, random melody alarm and temperature/humidity sensor
+
+Does your project also use **PetalPID**? Add it to this list by creating a pull request or issue!
+
+----------
+
+## ✨ Contribution
+
+1. Clone this repo
+
+  ```shell
+  git clone https://github.com/F33RNI/PetalPID
+  ```
+
+2. Follow the `.clang-format` style while editing the code
+3. Follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#specification>) while creating commits
+4. Create pull request
