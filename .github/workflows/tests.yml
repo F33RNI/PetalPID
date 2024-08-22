@@ -1,0 +1,23 @@
+name: Try to compile example
+
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
+  merge_group:
+  workflow_dispatch:
+
+jobs:
+  test-ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: apt-get install curl
+    - run: cd examples/TemperatureController
+    - run: mkdir arduino-cli
+    - run: curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | BINDIR=./arduino-cli sh
+    - run: ./arduino-cli/arduino-cli core install arduino:avr
+    - run: ./arduino-cli/arduino-cli compile --verbose --build-path ./build --library ../../ -b arduino:avr:nano *.ino
