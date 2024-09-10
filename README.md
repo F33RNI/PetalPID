@@ -97,6 +97,8 @@ This will generate HTML and LaTeX docs. Open `docs/index.html` file to view it
 
 - [in17clock](https://github.com/F33RNI/in17clock) by Fern Lane
     > IN17 Nixie tube clock with internal DC-DC converter, random melody alarm and temperature/humidity sensor
+- [ilet-103-motor-controller](https://github.com/F33RNI/ilet-103-motor-controller) be Fern Lane
+    > Digital speed controller for ILET 103 reel-to-reel deck
 
 Does your project also use **PetalPID**? Add it to this list by creating a pull request or issue!
 
